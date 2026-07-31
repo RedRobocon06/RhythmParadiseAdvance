@@ -48,10 +48,10 @@
 /* 0800009c */ .byte 0x21, 0xD4, 0xF8, 0x07
 
 @ Game Title
-/* 080000a0 */ .ascii "RHYTHMTENGOK"
+/* 080000a0 */ .ascii "RHYTHMADVANC"
 
 @ Game Code
-/* 080000ac */ .ascii "BRIJ"
+/* 080000ac */ .ascii "BRIE" // shoutout to shaffy for this one
 
 @ Maker Code
 /* 080000b0 */ .ascii "01"
@@ -72,11 +72,7 @@
 /* 080000bc */ .byte REV
 
 @ Compliment Check
-#if REV < 1
-/* 080000bd */ .byte 0x25
-#else
-/* 080000bd */ .byte 0x24
-#endif
+/* 080000bd */ .byte 0x45 - REV
 
 @ Reserved Area
 /* 080000be */ .hword 0x0000

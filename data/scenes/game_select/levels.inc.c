@@ -165,7 +165,7 @@ struct LevelData level_data_table[] = {
         /* Level Desc.   */ "\0023" "Assistant's memo:\n"
                             "We've got an outbreak\n"
                             "of an unknown virus!\n"
-                            "Help us, Dr Cutlery!",
+                            "Help us, Dr. Cutlery!",
         /* Level Icon    */ 13,
         /* Level Type    */ LEVEL_TYPE_GAME,
         /* Epilogue GFX  */ epilogue_sick_beats_gfx_tables,

@@ -53,7 +53,7 @@ enum DirectSoundModesEnum {
 enum InstrumentBanksEnum {
 	/* 000 */ INST_BANK_UNUSED_0,
 	/* 001 */ INST_BANK_UNUSED_1,
-	/* 002 */ INST_BANK_UNUSED_2,
+	/* 002 */ INST_BANK_70,
 	/* 003 */ INST_BANK_UNUSED_3,
 	/* 004 */ INST_BANK_UNUSED_4,
 	/* 005 */ INST_BANK_54,
