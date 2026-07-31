@@ -62,7 +62,7 @@ define print
 endef
 endif
 
-TARGET := rhythmheavenadvance
+TARGET := rhythmparadiseadvance
 REV    := 0 # Note the REV 1 is not supported by the team and bugs or issues related to it will not be fixed.
 
 # Preprocessor defines
