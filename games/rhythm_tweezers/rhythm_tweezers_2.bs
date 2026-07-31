@@ -9,11 +9,7 @@
 script script_rhythm_tweezers_2_entry
     set_tempo 124
     rest 24
-    #ifdef PLUS
     call script_rhythm_tweezers_2_prologue
-    #else
-    call script_rhythm_tweezers_prologue
-    #endif
     set_game_fade_in_time 16
     load_rhythm_tweezers_2
     enable_play_inputs
@@ -28,6 +24,7 @@ script script_rhythm_tweezers_2_entry
 stop
 
 define_gameplay_scene scene_rhythm_tweezers_2, script_rhythm_tweezers_2_entry
+
 
 .section .script.prologue
 @ Rhythm Tweezers - Prologue
@@ -49,6 +46,7 @@ script script_rhythm_tweezers_2_prologue
     rest 24
     set_game_fade_in_time 16
 return
+
 
 .section .script.main
 @ Rhythm Tweezers 2 - Marking Criteria
