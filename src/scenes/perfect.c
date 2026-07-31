@@ -102,9 +102,9 @@ void perfect_scene_start(void *sVar, s32 dArg) {
 
     campaignsLeft = TOTAL_PERFECT_CAMPAIGNS - D_030046a8->data.totalPerfects;
     strint(count, campaignsLeft);
-    memcpy(gPerfect->string, "\0021" "\0011" "\001C" "\0030" "\001s" "\0054" "\0018" "「", 17);
+    memcpy(gPerfect->string, "\0021" "\0011" "\001C" "\0030" "\001s" "\0054" "\0018" "", 25);
     strcat(gPerfect->string, get_campaign_gift_title(gPerfect->campaignID, FALSE));
-    strcat(gPerfect->string, "」");
+    strcat(gPerfect->string, "");
 
     if (giftType == CAMPAIGN_GIFT_SONG) {
         switch (giftID) {
@@ -113,23 +113,27 @@ void perfect_scene_start(void *sVar, s32 dArg) {
                 break;
 
             default:
-                strcat(gPerfect->string, "の曲");
+                strcat(gPerfect->string, "");
                 break;
         }
     }
 
-    strcat(gPerfect->string, "\0020" "\0010" "をプレゼント！\n"); // You've earned a gift!
+    strcat(gPerfect->string, "\0020" "\0010" "\nYou've earned a gift! "); // You've earned a gift!
     strcat(gPerfect->string, perfect_gift_directive_text[giftType]);
 
     if (campaignsLeft > 0) {
-        strcat(gPerfect->string, "プレゼントは　あと　" "\0021" "\0011"); // There are still...
-        strcat(gPerfect->string, count);
-        strcat(gPerfect->string, "コ" "\0020" "\0010" "　あるから、\n" // ...gifts
-                                     "他のキャンペーンにもチャレンジしてみてネ！"); // left to get. Keep going!
+        if (campaignsLeft > 1) {
+            strcat(gPerfect->string, "Looks like there are still " "\0021" "\0011"); // There are still...
+            strcat(gPerfect->string, count);
+            strcat(gPerfect->string, " gifts " "\0020" "\0010" "left.\n" // ...gifts
+                                         "Keep pushing yourself to earn them all!"); // left to get. Keep going!
+        } else {
+            strcat(gPerfect->string, "There's now just " "\0021" "\0011" "one gift " "\0020" "\0010" "left.\n" // ...gift
+                                         "You can do it!"); // left to get. Keep going!
+        }
     } else {
-        strcat(gPerfect->string, "プレゼントは　これで" "\0021" "\0011" // 0 gifts left.
-                                     "オシマイ" "\0020" "\0010" "です。\n"); // You finally got them all!
-        strcat(gPerfect->string, "パーフェクトキャンペーン、コンプリートです！"); // Congratulations!
+        strcat(gPerfect->string,"\0021" "\0011" "You've earned all of the gifts!" "\0020" "\0010" "\n"); // You finally got them all!
+        strcat(gPerfect->string, "That means you got a Perfect on everything!"); // Congratulations!
     }
 
     text_printer_set_string(gPerfect->printer, gPerfect->string);

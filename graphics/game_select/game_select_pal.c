@@ -85,16 +85,16 @@ Palette game_select_obj_pal[] = {
         /* 06 */ TO_RGB555(0x909090),
         /* 07 */ TO_RGB555(0xA8A8A8),
         /* 08 */ TO_RGB555(0xC0C0C0),
-        /* 09 */ TO_RGB555(0x000000),
-        /* 10 */ TO_RGB555(0x000000),
-        /* 11 */ TO_RGB555(0x000000),
-        /* 12 */ TO_RGB555(0x000000),
+        /* 09 */ TO_RGB555(0x9c9494),
+        /* 10 */ TO_RGB555(0xded6d6),
+        /* 11 */ TO_RGB555(0x524a4a),
+        /* 12 */ TO_RGB555(0xdee7ff),
         /* 13 */ TO_RGB555(0x000000),
         /* 14 */ TO_RGB555(0x000000),
         /* 15 */ TO_RGB555(0xF8F8F8)
     },
     /* PALETTE 05 */ {
-        /* 00 */ TO_RGB555(0x000000),
+        /* 00 */ TO_RGB555(0x8a6f30),
         /* 01 */ TO_RGB555(0x000000),
         /* 02 */ TO_RGB555(0xF8F8F8),
         /* 03 */ TO_RGB555(0x000000),
@@ -107,8 +107,8 @@ Palette game_select_obj_pal[] = {
         /* 10 */ TO_RGB555(0x000000),
         /* 11 */ TO_RGB555(0x000000),
         /* 12 */ TO_RGB555(0x000000),
-        /* 13 */ TO_RGB555(0x000000),
-        /* 14 */ TO_RGB555(0x000000),
+        /* 13 */ TO_RGB555(0xf7b73b),
+        /* 14 */ TO_RGB555(0x9c9494),
         /* 15 */ TO_RGB555(0x000000)
     },
     /* PALETTE 06 */ {

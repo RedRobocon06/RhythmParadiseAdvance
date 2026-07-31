@@ -9,30 +9,40 @@
 
 // [D_089dcf68] Title Logo Characters
 struct TitleLogoCharData title_logo_char_data[TOTAL_TITLE_LOGO_BUBBLES] = {
-    /* RI */ {
+    /* RH */ {
         /* Anim. */ anim_title_logo_ri,
-        /* X, Y  */ 44, 78,
-        /* Angle */ 148
+        /* X, Y  */ 76, 70,
+        /* Angle */ 157
     },
-    /* ZU */ {
+    /* YT */ {
         /* Anim. */ anim_title_logo_zu,
-        /* X, Y  */ 77, 88,
-        /* Angle */ 84
+        /* X, Y  */ 116, 62,
+        /* Angle */ -60
     },
-    /* MU */ {
+    /* HM */ {
         /* Anim. */ anim_title_logo_mu,
-        /* X, Y  */ 117, 77,
-        /* Angle */ 192
+        /* X, Y  */ 157, 54,
+        /* Angle */ -47
     },
-    /* TEN */ {
+    /* PA */ {
         /* Anim. */ anim_title_logo_ten,
-        /* X, Y  */ 158, 87,
-        /* Angle */ 44
+        /* X, Y  */ 87, 98,
+        /* Angle */ -133
     },
-    /* GOKU */ {
+    /* RAD */ {
+        /* Anim. */ anim_title_logo_av,
+        /* X, Y  */ 129, 90,
+        /* Angle */ 97
+    },
+    /* ISE */ {
         /* Anim. */ anim_title_logo_goku,
-        /* X, Y  */ 198, 78,
-        /* Angle */ -20
+        /* X, Y  */ 165, 81,
+        /* Angle */ -12
+    },
+    /* ADVANCE */ {
+        /* Anim. */ anim_title_logo_advance,
+        /* X, Y  */ 128, 91,
+        /* Angle */ 37
     }
 };
 

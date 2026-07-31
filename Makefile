@@ -53,10 +53,10 @@ NONMATCHING ?= 0
 REV ?= 0
 
 ifeq ($(REV), 0)
-    TARGET := rhythmtengoku
+    TARGET := rhythmparadise
     TARGET_SHA1 := $(BASEROM_SHA1)
 else
-    TARGET := rhythmtengoku_rev1
+    TARGET := rhythmparadise_rev1
     TARGET_SHA1 := $(REV1_SHA1)
     ifeq (,$(wildcard baserom_rev1.gba))
         $(error No ROM provided. Please place an unmodified Revision 1 ROM named "baserom_rev1.gba" in the root folder)

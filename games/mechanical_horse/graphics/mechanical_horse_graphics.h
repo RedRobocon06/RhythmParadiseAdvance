@@ -21,6 +21,7 @@ extern struct Animation anim_horse_text_pak[];
 extern struct Animation anim_horse_text_ka[];
 extern struct Animation anim_horse_text_rap[];
 extern struct Animation anim_horse_text_tot[];
+extern struct Animation anim_horse_text_ta[];
 extern struct Animation anim_horse_text_dod[];
 extern struct Animation anim_horse_text_blank[];
 extern struct Animation anim_horse_text_pa[];

@@ -8,21 +8,21 @@
 
 // [D_089d83d0] Drum Kit Names
 const char *studio_drum_kit_names[] = {
-    /* DEFAULT */ "フツーなドラム",
-    /* DRY     */ "ドライなドラム",
-    /* POWER   */ "パワーなドラム",
-    /* TECHNO  */ "テクノなドラム",
-    /* MATTE   */ "マットなドラム",
-    /* ASIAN   */ "アジアなドラム",
-    /* LIGHT   */ "ライトなドラム",
-    /* HEAVY   */ "ハードなドラム",
-    /* HIHAT   */ "ハットテクなドラム",
-    /* HEEL1   */ "カカトテクなドラム １",
-    /* HEEL2   */ "カカトテクなドラム ２",
-    /* SFX     */ "音効なドラム",
-    /* TAP     */ "タップなドラム",
-    /* AIR     */ "風切るドラム",
-    /* SAMURAI */ "さむらいドラム"
+    /* DEFAULT */ "Standard Drum",
+    /* DRY     */ "Dry Drum",
+    /* POWER   */ "Power Drum",
+    /* TECHNO  */ "Techno Drum",
+    /* MATTE   */ "Matte Drum",
+    /* ASIAN   */ "Asian Drum",
+    /* LIGHT   */ "Light Drum",
+    /* HEAVY   */ "Heavy Drum",
+    /* HIHAT   */ "Hi-Hat Drum",
+    /* HEEL1   */ "Heel Drop Drum 1",
+    /* HEEL2   */ "Heel Drop Drum 2",
+    /* SFX     */ "Sound FX Drum",
+    /* TAP     */ "Tap Drum",
+    /* AIR     */ "Swift Drum",
+    /* SAMURAI */ "Samurai Drum"
 };
 
 

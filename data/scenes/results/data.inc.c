@@ -20,9 +20,9 @@ const char *results_letter_ranks[] = {
 
 // [D_089d7998] DEBUG Skill Comments - Accuracy
 const char *results_skill_text_accuracy[] = {
-    "プロから　みた　ピッタシさ",
-    "リズムかん　バッチシさ",
-    "なっとくの　せいかくさ",
+    "Ｐｒｏｆｅｓｓｉｏｎａｌ　Ａｃｃｕｒａｃｙ",
+    "Ｓｅｎｓｅ　ｏｆ　Ｒｈｙｔｈｍ",
+    "Ａｃｃｕｒａｃｙ　Ｓａｔｉｓｆａｃｔｉｏｎ",
     NULL
 };
 
@@ -32,9 +32,9 @@ const char *results_skill_text_accuracy[] = {
     // Adaptability
     // Reflexes
 const char *results_skill_text_barely_trk2[] = {
-    "テクニック　レベル",
-    "てきおう　のうりょく",
-    "あたまの　かいてん　スピード",
+    "Ｔｅｃｈｎｉｑｕｅ　Ｌｅｖｅｌ",
+    "Ａｄａｐｔａｂｉｌｉｔｙ",
+    "Ｒｅｆｌｅｘｅｓ",
     NULL
 };
 
@@ -44,67 +44,67 @@ const char *results_skill_text_barely_trk2[] = {
     //
     // Steadiness
 const char *results_skill_text_barely_trk1[] = {
-    "せきにんかん",
-    "ここ　イッパツ",
-    "てがたい　かんじ",
+    "Ｒｅｓｐｏｎｓｉｂｉｌｉｔｙ",
+    "Ｔｈｅ　Ｍｏｓｔ　Ｉｍｐｏｒｔａｎｔ　Ｐａｒｔ",
+    "Ｇｒａｓｐ",
     NULL
 };
 
 
 // [D_089d79c8] DEBUG Skill Comments - Hits
 const char *results_skill_text_hit_avg[] = {
-    "シロートめの　ピッタシさ",
-    "いっぱんてき　バッチシど",
-    "ほどほどの　せいかくさ",
+    "Ａｍａｔｅｕｒ　Ａｃｃｕｒａｃｙ",
+    "Ｏｒｄｉｎａｒｙ　Ａｃｃｕｒａｃｙ",
+    "Ｍｏｄｅｒａｔｅ　Ａｃｃｕｒａｃｙ",
     NULL
 };
 
 
 // [D_089d79d8] DEBUG Skill Comments - Irrelevant Inputs
 const char *results_skill_text_irrelevant_inputs[] = {
-    "せつやく　のうりょく",
-    "ごうりてき　さいのう",
-    "おちつき",
+    "Ｃｏｎｓｅｒｖａｔｉｏｎ　ｏｆ　Ｓｔａｍｉｎａ",
+    "Ｒａｔｉｏｎａｌｉｔｙ",
+    "Ｃａｌｍｎｅｓｓ",
     NULL
 };
 
 
 // [D_089d79e8] DEBUG Skill Comments - Accuracy (Lenient)
 const char *results_skill_text_accuracy_lenient[] = {
-    "あんていの　ほど",
-    "リズムの　しん",
-    "いっかんせい　みたいなもの",
+    "Ｓｔａｂｉｌｉｔｙ",
+    "Ｙｏｕｒ　Ｒｈｙｔｈｍ’ｓ　Ｃｏｒｅ",
+    "Ｃｏｎｓｉｓｔｅｎｃｙ",
     NULL
 };
 
 
 // [D_089d79f8] DEBUG Skill Comments - Misses
 const char *results_skill_text_miss[] = {
-    "やるき",
-    "どうたい　しりょく",
-    "まえむきな　しせい",
+    "Ｍｏｔｉｖａｔｉｏｎ",
+    "Ｖｉｓｕａｌ　Ｓｔｒｅｎｇｔｈ",
+    "Ａｔｔｉｔｕｄｅ",
     NULL
 };
 
 
 // [D_089d7a08] DEBUG Skill Comments - Misses (Tracker 2)
 const char *results_skill_text_miss_trk2[] = {
-    "りんきおうへん",
-    "じゅうなんせい",
-    "ちゅういぶかさ",
+    "Ａｄａｐｔａｂｉｌｉｔｙ",
+    "Ｆｌｅｘｉｂｉｌｉｔｙ",
+    "Ｃａｒｅｆｕｌｎｅｓｓ",
     NULL
 };
 
 
 // [D_089d7a18] DEBUG Skill Comments - Random
 const char *results_skill_text_random[] = {
-    "らいねんの　れんあい　うん",
-    "ことしの　きんせん　うん",
-    "あしたの　てんき",
-    "きのうの　やしょく",
-    "けつえきがた（すいそく）",
-    "そだちの　よさ",
-    "にんげんせい",
+    "Ｎｅｘｔ　Ｙｅａｒ’ｓ　Ｌｏｖｅ",
+    "Ｔｈｉｓ　Ｙｅａｒ’ｓ　Ｗｅａｌｔｈ",
+    "Ｔｏｍｏｒｒｏｗ’ｓ　Ｗｅａｔｈｅｒ",
+    "Ｙｅｓｔｅｒｄａｙ’ｓ　Ｄｉｎｎｅｒ",
+    "Ｂｌｏｏｄ　Ｔｙｐｅ　Ｐｒｅｄｉｃｔｉｏｎ",
+    "Ｙｏｕｒ　Ｕｐｂｒｉｎｇｉｎｇ",
+    "Ｙｏｕｒ　Ｈｕｍａｎｉｔｙ",
     NULL
 };
 

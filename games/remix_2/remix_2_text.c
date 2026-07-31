@@ -5,28 +5,28 @@
 /* Game Text - Remix 2 */
 
 
-const char D_08067ecc[] = "まだまだです。";
+const char D_08067ecc[] = "Try a little harder.";
 
-const char D_08067edc[] = "かなり、　サイコーでーす！";
+const char D_08067edc[] = "That was really great!";
 
-const char D_08067ef8[] = "はんだん　りょくが　かけてます。";
+const char D_08067ef8[] = "Your decisions took too long.";
 
-const char D_08067f1c[] = "すばらしい　はんだん　りょくだ！";
+const char D_08067f1c[] = "You thought on the spot well!";
 
-const char D_08067f40[] = "もっと　ウデを　みがこう。";
+const char D_08067f40[] = "Your technique needs work.";
 
-const char D_08067f5c[] = "とても　テクニカルだ！";
+const char D_08067f5c[] = "Your technique is solid!";
 
-const char D_08067f74[] = "なぞのリズム組織から通達";
+const char D_08067f74[] = "Rhythm League notes:";
 
-const char D_08067f90[] = ".1:0ど:1ーん　.1:0ど:1ーん　.2:0ぱ.2:1ーん　.2:0ぱ.2:1ん";
+const char D_08067f90[] = ".1:0Ｄｏ－ｎ　ｄｏ－ｎ　.2:0ｐａ－ｎ　ｐａｎ";
 
-const char D_08067fcc[] = ".1:0ど:1んど　.2:0ぱ.2:1ーん　.2:0ぱ.2:1ん";
+const char D_08067fcc[] = ".1:0Ｄｏｎｄｏ　.2:0ｐａ－ｎ　ｐａｎ";
 
-const char D_08067ff8[] = "こい　してる？";
+const char D_08067ff8[] = "Ａｒｅ　ｙｏｕ　ｌｏｖｅｓｔｒｕｃｋ？";
 
-const char D_08068008[] = "アセるー！！";
+const char D_08068008[] = "Ｄｏｎ’ｔ　ｆａｌｌ　ｂａｃｋ！";
 
-const char D_08068018[] = "がんばって～！";
+const char D_08068018[] = "Ｋｅｅｐ　ｕｐ　ｔｈｅ　ｐａｃｅ！";
 
 const char D_08068028[] = "";

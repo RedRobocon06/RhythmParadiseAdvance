@@ -76,63 +76,63 @@ return
 @ Rap Men - Text
 
 text text_rap_men_sanji_desu_ka
-    .asciz ".b:1ＰＭ３：００　です:0か？"
+    .asciz ".b:1Ｉｔ’ｓ　３　ＰＭ，　.b:0ｈｕｈ？.8:1"
 endtext
 
 text text_rap_men_oyatsu_desu_ka
-    .asciz ".b:1おやつ　です:0か？"
+    .asciz ".b:1Ｉｔ’ｓ　ｓｎａｃｋ　ｔｉｍｅ，　.b:0ｈｕｈ？.8:1"
 endtext
 
 text text_rap_men_honto_desu_ka
-    .asciz ".b:1ほんとです:0か？"
+    .asciz ".b:1Ｍａｙｂｅ　ｓｏ，　.b:0ｈｕｈ？.8:1"
 endtext
 
 text text_rap_men_wakarimasu_ka
-    .asciz ".b:1わかります:0か？"
+    .asciz ".b:1Ｙｏｕ　ｇｅｔ　ｉｔ　ｎｏｗ，　.b:0ｈｕｈ？.8:1"
 endtext
 
 text text_rap_men_oishii_kamo_ne
-    .asciz ".9:1おいしい　かも:0ネ"
+    .asciz ".9:1Ｔａｓｔｙ　ｓｎａｃｋｓ，　.9:0ｙａ　ｆｅｅｌ　ｍｅ？.8:1"
 endtext
 
 text text_rap_men_herushii_kamo_ne
-    .asciz ".9:1ヘルシー　かも:0ネ"
+    .asciz ".9:1Ｈｅａｌｔｈｙ　ｓｎａｃｋｓ，　.9:0ｙａ　ｆｅｅｌ　ｍｅ？.8:1"
 endtext
 
 text text_rap_men_ore_no_sei_kamo_ne
-    .asciz ".9:1オレの　せいかも:0ネ"
+    .asciz ".9:1Ｍｉｇｈｔ’ｖｅ　ｂｅｅｎ　ｕｓ，　.9:0ｙａ　ｆｅｅｌ　ｍｅ？.8:1"
 endtext
 
 text text_rap_men_sore_mo_sou_kamo_ne
-    .asciz ".9:1それもそう　かも:0ネ"
+    .asciz ".9:1Ｔｈａｔ’ｓ　ｈｏｗ　ｉｔ　ｂｅ，　.9:0ｙａ　ｆｅｅｌ　ｍｅ？.8:1"
 endtext
 
 text text_rap_men_tanoshii_kamo_ne
-    .asciz ".9:1たのしい　かも:0ネ"
+    .asciz ".9:1Ｈａｖｉｎ’　ｆｕｎ，　.9:0ｙａ　ｆｅｅｌ　ｍｅ？.8:1"
 endtext
 
 text text_rap_men_oyatsu_wa_saikou
-    .asciz ".a:1おやつは　:0サイコー！！"
+    .asciz ".a:1Ｓｎａｃｋｉｎｇ　ｉｓ　.a:0ｓｏ　ＡＷＥＳＯＭＥ！.8:1"
 endtext
 
 text text_rap_men_kibun_wa_saikou
-    .asciz ".a:1きぶんは　:0サイコー！！"
+    .asciz ".a:1Ｉ　ｆｅｅｌ　.a:0ｓｏ　ＡＷＥＳＯＭＥ！.8:1"
 endtext
 
 text text_rap_men_ore_tte_saikou
-    .asciz ".a:1オレって　:0サイコー！！"
+    .asciz ".a:1Ｗｅ　ａｒｅ　.a:0ｓｏ　ＡＷＥＳＯＭＥ！.8:1"
 endtext
 
 text text_rap_men_kimi_tte_saikou
-    .asciz ".a:1キミって　:0サイコー！！"
+    .asciz ".a:1Ｙｏｕ　ａｒｅ　.a:0ｓｏ　ＡＷＥＳＯＭＥ！.8:0"
 endtext
 
 text text_rap_men_oyatsu_ga_nai_yo
-    .asciz ".a:1おやつが　:0ナイヨー！！"
+    .asciz ".a:1Ｗａｉｔ　ａ　ｓｅｃ，　ｗｅ　.a:0ＬＯＳＴ　ＳＯＭＥ！.8:1"
 endtext
 
 text text_rap_men_ore_shiranai_yo
-    .asciz ".a:1オレ、　しらない:0ヨー！！"
+    .asciz ".a:1Ｇｕｅｓｓ　ｉｔ’ｓ　ｈｏｗ　ｗｅ　.a:0ＬＯＳＴ　ＳＯＭＥ！.8:1"
 endtext
 
 

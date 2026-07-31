@@ -5,46 +5,49 @@
 /* Game Text - Remix 4 */
 
 
-const char D_0806802c[] = "まだまだです。";
+const char D_0806802c[] = "Try a little harder.";
 
-const char D_0806803c[] = "かなり、　サイコーでーす！";
+const char D_0806803c[] = "That was really great!";
 
-const char D_08068058[] = "はんだん　りょくが　かけてます。";
+const char D_08068058[] = "Your decisions took too long.";
 
-const char D_0806807c[] = "すばらしい　はんだん　りょくだ！";
+const char D_0806807c[] = "You thought on the spot well!";
 
-const char D_080680a0[] = "もっと　ウデを　みがこう。";
+const char D_080680a0[] = "Your technique needs work.";
 
-const char D_080680bc[] = "とても　テクニカルだ！";
+const char D_080680bc[] = "Your technique is solid!";
 
-const char D_080680d4[] = "なぞのリズム組織から通達";
+const char D_080680d4[] = "Rhythm League notes:";
 
 const char D_080680f0[] =
     "\n"
-    "いきます！";
+    "Let's begin!";
 
 const char D_080680fc[] =
     "\n"
-    "どうぞ。";
+    "Go ahead.";
 
 const char D_08068108[] =
     "\n"
-    "そこまで！！";
+    "Aaaand stop!\n"
+    "\n";
 
 const char D_08068118[] =
     "\n"
-    "ザンネン！！";
+    "Aww, too bad!";
 
 const char D_08068128[] =
     "\n"
-    "おみごと！！";
+    "Impressive!";
 
-const char D_08068138[] = "ゆっくり　しよか";
+const char D_08068138[] = "Ｌｅｔ’ｓ　ｓｌｏｗ　ｔｈｉｎｇｓ　ｄｏｗｎ　ａ　ｂｉｔ．．．";
 
 const char D_0806814c[] =
-    "\n"
-    "さいごです。";
+    "This is it, the\n"
+    "final question!\n"
+    "\n";
 
 const char D_0806815c[] =
-    "\n"
-    "さて、 正解は？";
+    "And the correct\n"
+    "answer is...\n"
+    "\n";

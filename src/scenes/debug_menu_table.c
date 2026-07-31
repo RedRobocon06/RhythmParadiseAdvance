@@ -9,443 +9,443 @@
 struct DebugMenuEntry debug_menu_entry_table[] = {
     /* Drum LIVE */ {
         /* Scene */ &scene_drum_live,
-        /* Label */ "ライブ"
+        /* Label */ "Ｃｏｎｃｅｒｔ",
     },
     /* Sick Beats Endless */ {
         /* Scene */ &scene_sick_beats_endless,
-        /* Label */ "バイキン　はかせ　ＳＰ"
+        /* Label */ "Ｓｉｃｋ　Ｂｅａｔｓ　Ｓｐｅｃｉａｌ",
     },
     /* Quiz Show Endless */ {
         /* Scene */ &scene_quiz_show_endless,
-        /* Label */ "クイズ（スペシャル）"
+        /* Label */ "Ｑｕｉｚ　Ｓｈｏｗ　Ｓｐｅｃｉａｌ",
     },
     /* Mannequin Factory */ {
         /* Scene */ &scene_mannequin_factory,
-        /* Label */ "マネキンこうじょう"
+        /* Label */ "Ｍａｎｎｅｑｕｉｎ　Ｆａｃｔｏｒｙ",
     },
     /* Mr. Upbeat */ {
         /* Scene */ &scene_mr_upbeat,
-        /* Label */ "ウラおとこ"
+        /* Label */ "Ｍｒ．　Ｕｐｂｅａｔ",  
     },
     /* Remix 8 */ {
         /* Scene */ &scene_remix_8,
-        /* Label */ "リミックス　８"
+        /* Label */ "Ｒｅｍｉｘ　８",	
     },
     /* Remix 7 */ {
         /* Scene */ &scene_remix_7,
-        /* Label */ "リミックス　７"
+        /* Label */ "Ｒｅｍｉｘ　７",	
     },
     /* Remix 6 */ {
         /* Scene */ &scene_remix_6,
-        /* Label */ "リミックス　６"
+        /* Label */ "Ｒｅｍｉｘ　６",
     },
     /* Remix 5 */ {
         /* Scene */ &scene_remix_5,
-        /* Label */ "リミックス　５"
+        /* Label */ "Ｒｅｍｉｘ　５",
     },
     /* Remix 4 */ {
         /* Scene */ &scene_remix_4,
-        /* Label */ "リミックス　４"
+        /* Label */ "Ｒｅｍｉｘ　４",
     },
     /* Remix 3 */ {
         /* Scene */ &scene_remix_3,
-        /* Label */ "リミックス　３"
+        /* Label */ "Ｒｅｍｉｘ　３",
     },
     /* Remix 2 */ {
         /* Scene */ &scene_remix_2,
-        /* Label */ "リミックス　２"
+        /* Label */ "Ｒｅｍｉｘ　２",
     },
     /* Remix 1 */ {
         /* Scene */ &scene_remix_1,
-        /* Label */ "リミックス　１"
+        /* Label */ "Ｒｅｍｉｘ　１",
     },
     /* The Bon Odori */ {
         /* Scene */ &scene_bon_odori,
-        /* Label */ "ぼんおどり"
+        /* Label */ "Ｔｈｅ　Ｂｏｎ　Ｏｄｏｒｉ",
     },
     /* Bon Dance */ {
         /* Scene */ &scene_bon_dance,
-        /* Label */ "ボンダンス"
+        /* Label */ "Ｔｈｅ　Ｂｏｎ　Ｄａｎｃｅ",
     },
     /* Rhythm Toys (Cat Machine) */ {
         /* Scene */ &scene_cat_machine,
-        /* Label */ "こえマシン（ネコ）"
+        /* Label */ "Ｃａｔ　Ｍａｃｈｉｎｅ",
     },
     /* Rhythm Toys (Confession Machine) */ {
         /* Scene */ &scene_love_machine,
-        /* Label */ "こえマシン（ラブ）"
+        /* Label */ "Ｌｏｖｅ　Ｍａｃｈｉｎｅ",
     },
     /* Rhythm Toys (Rap Machine) */ {
         /* Scene */ &scene_rap_machine,
-        /* Label */ "こえマシン（ラップ）"
+        /* Label */ "Ｒａｐ　Ｍａｃｈｉｎｅ",
     },
     /* Lesson (Short 1) */ {
         /* Scene */ &scene_drum_lesson_short_1,
-        /* Label */ "レッスン（イージー）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ｂａｓｉｃ　１）",
     },
     /* Lesson (Short 4) */ {
         /* Scene */ &scene_drum_lesson_short_4,
-        /* Label */ "レッスン（ハード１）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ｂａｓｉｃ　４）",
     },
     /* Lesson (Short 8) */ {
         /* Scene */ &scene_drum_lesson_short_8,
-        /* Label */ "レッスン（ハード２）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ｂａｓｉｃ　８）",
     },
     /* Lesson (Short 5) */ {
         /* Scene */ &scene_drum_lesson_short_5,
-        /* Label */ "レッスン（キメパターン１）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ｂａｓｉｃ　５）",
     },
     /* Lesson (Short 7) */ {
         /* Scene */ &scene_drum_lesson_short_7,
-        /* Label */ "レッスン（キメパターン２）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ｂａｓｉｃ　７）",
     },
     /* Lesson (Short 6) */ {
         /* Scene */ &scene_drum_lesson_short_6,
-        /* Label */ "レッスン（デスコビート）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ｂａｓｉｃ　６）",
     },
     /* Lesson (Short 9) */ {
         /* Scene */ &scene_drum_lesson_short_9,
-        /* Label */ "レッスン（ボッサ）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ｂａｓｉｃ　９）",
     },
     /* Lesson (Basic 1) */ {
         /* Scene */ &scene_drum_lesson_basic_1,
-        /* Label */ "レッスン（スネア）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ｉｎｔｒｏ　１）",
     },
     /* Lesson (Basic 2) */ {
         /* Scene */ &scene_drum_lesson_basic_2,
-        /* Label */ "レッスン（バスとスネア）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ｉｎｔｒｏ　２）",
     },
     /* Lesson (Short 2) */ {
         /* Scene */ &scene_drum_lesson_short_2,
-        /* Label */ "レッスン（はやい８ビート）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ｂａｓｉｃ　２）",
     },
     /* Lesson (Short 3) */ {
         /* Scene */ &scene_drum_lesson_short_3,
-        /* Label */ "レッスン（スネアテクニック）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ｂａｓｉｃ　３）",
     },
     /* Lesson (Long 4) */ {
         /* Scene */ &scene_drum_lesson_long_4,
-        /* Label */ "レッスン（じっせん１）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ａｄｖａｎｃｅｄ　４）",
     },
     /* Lesson (Long 2) */ {
         /* Scene */ &scene_drum_lesson_long_2,
-        /* Label */ "レッスン（じっせん２）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ａｄｖａｎｃｅｄ　２）",
     },
     /* Lesson (Long 3) */ {
         /* Scene */ &scene_drum_lesson_long_3,
-        /* Label */ "レッスン（じっせん３）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ａｄｖａｎｃｅｄ　３）",
     },
     /* Lesson (Long 1) */ {
         /* Scene */ &scene_drum_lesson_long_1,
-        /* Label */ "レッスン（じっせん４）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ａｄｖａｎｃｅｄ　１）",
     },
     /* Lesson (Long 5) */ {
         /* Scene */ &scene_drum_lesson_long_5,
-        /* Label */ "レッスン（じっせん５）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ａｄｖａｎｃｅｄ　５）",
     },
     /* Lesson (Long 6) */ {
         /* Scene */ &scene_drum_lesson_long_6,
-        /* Label */ "レッスン（じっせん６）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ａｄｖａｎｃｅｄ　６）",
     },
     /* Lesson (High-Tech 1) */ {
         /* Scene */ &scene_drum_lesson_hi_tech_1,
-        /* Label */ "レッスン（じっせん７）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ｔｅｃｈｎｉｃａｌ　１）",
     },
     /* Lesson (High-Tech 2) */ {
         /* Scene */ &scene_drum_lesson_hi_tech_2,
-        /* Label */ "レッスン（じっせん８）"
+        /* Label */ "Ｌｅｓｓｏｎ　（Ｔｅｃｈｎｉｃａｌ　２）",
     },
     /* Studio Drummer */ {
         /* Scene */ &scene_drum_studio_ver0,
-        /* Label */ "スタジオドラマー"
+        /* Label */ "Ｓｔｕｄｉｏ　Ｄｒｕｍｓ　（Ｖｅｒ．　０）",
     },
     /* Rhythm Test (Click) */ {
         /* Scene */ &scene_rhythm_test_click,
-        /* Label */ "チェックマシン　（クリック）"
+        /* Label */ "Ｒｈｙｔｈｍ　Ｔｅｓｔ　（Ｃｌｉｃｋ）",
     },
     /* Rhythm Test (Cue) */ {
         /* Scene */ &scene_rhythm_test_cue,
-        /* Label */ "チェックマシン　（キューフ）"
+        /* Label */ "Ｒｈｙｔｈｍ　Ｔｅｓｔ　（Ｃｕｅ）",
     },
     /* Rhythm Test (Trick) */ {
         /* Scene */ &scene_rhythm_test_trick,
-        /* Label */ "チェックマシン　（トリッキー）"
+        /* Label */ "Ｒｈｙｔｈｍ　Ｔｅｓｔ　（Ｔｒｉｃｋｙ）"
     },
     /* Rhythm Test (Total) */ {
         /* Scene */ &scene_rhythm_test_opening,
-        /* Label */ "チェックマシン　（トータル）"
+        /* Label */ "Ｒｈｙｔｈｍ　Ｔｅｓｔ　（Ｏｐｅｎｉｎｇ）"
     },
     /* Reading Material */ {
         /* Scene */ &scene_reading,
-        /* Label */ "テキスト"
+        /* Label */ "Ｅｍａｉｌ",
     },
     /* Quiz Show */ {
         /* Scene */ &scene_quiz_show,
-        /* Label */ "クイズ"
+        /* Label */ "Ｑｕｉｚ　Ｓｈｏｗ",
     },
     /* Rap Men */ {
         /* Scene */ &scene_rap_men,
-        /* Label */ "ラップメン"
+        /* Label */ "ＲＡＰＭＥＮ",
     },
     /* Rap Women (by YONE) */ {
         /* Scene */ &scene_rap_women,
-        /* Label */ "ラップ　ウィメン（ｂｙ　ＹＯＮＥ）"
+        /* Label */ "ＲＡＰＷＯＭＥＮ　（ｂｙ　ＹＯＮＥ）",
     },
     /* Rap Women (by KAZU) */ {
         /* Scene */ &scene_rap_women_unused,
-        /* Label */ "ラップ　ウィメン（ｂｙ　ＫＡＺＵ）"
+        /* Label */ "ＲＡＰＷＯＭＥＮ　（Ｂｙ　ＫＡＺＵ）",
     },
     /* Space Dance */ {
         /* Scene */ &scene_space_dance,
-        /* Label */ "スペースダンス"
+        /* Label */ "Ｓｐａｃｅ　Ｄａｎｃｅ",
     },
     /* Cosmic Dance */ {
         /* Scene */ &scene_cosmic_dance,
-        /* Label */ "コスモダンス"
+        /* Label */ "Ｃｏｓｍｉｃ　Ｄａｎｃｅ",
     },
     /* Showtime */ {
         /* Scene */ &scene_showtime,
-        /* Label */ "ショータイム"
+        /* Label */ "Ｓｈｏｗｔｉｍｅ",
     },
     /* RIQ Data Check */ {
         /* Scene */ &scene_data_check,
-        /* Label */ "ＲＩＱデータチェック"
+        /* Label */ "Ｒ－ＩＱ　Ｄａｔａ　Ｃｈｅｃｋ",
     },
     /* Opening (B Type) */ {
         /* Scene */ &scene_drum_samurai_opening_cutscene,
-        /* Label */ "オープニング　（Ｂ　Ｔｙｐｅ）"
+        /* Label */ "Ｏｐｅｎｉｎｇ　（Ｔｙｐｅ　Ｂ）",
     },
     /* Opening (A Type) */ {
         /* Scene */ &scene_drum_samurai_demo_cutscene,
-        /* Label */ "オープニング　（Ａ　Ｔｙｐｅ）"
+        /* Label */ "Ｏｐｅｎｉｎｇ　（Ｔｙｐｅ　Ａ）",
     },
     /* Tram & Pauline */ {
         /* Scene */ &scene_tram_pauline,
-        /* Label */ "トランとポリン"
+        /* Label */ "Ｔｒａｍ　＆　Ｐａｕｌｉｎｅ",
     },
     /* Toss Boys */ {
         /* Scene */ &scene_toss_boys,
-        /* Label */ "トスボーイズ"
+        /* Label */ "Ｔｏｓｓ　Ｔｅａｍ",
     },
     /* Toss Boys 2 */ {
         /* Scene */ &scene_toss_boys_2,
-        /* Label */ "トスボーイズ　２"
+        /* Label */ "Ｔｏｓｓ　Ｔｅａｍ　２",
     },
     /* Drum Girls LIVE */ {
         /* Scene */ &scene_drum_girls_live_unused,
-        /* Label */ "ドラムガールズ"
+        /* Label */ "Ｄｒｕｍ　Ｇｉｒｌｓ　（Ｕｎｕｓｅｄ）",
     },
     /* Power Calligraphy */ {
         /* Scene */ &scene_power_calligraphy,
-        /* Label */ "リズム　おしゅうじ"
+        /* Label */ "Ｐｏｗｅｒ　Ｃａｌｌｉｇｒａｐｈｙ",
     },
     /* Rat Race */ {
         /* Scene */ &scene_rat_race,
-        /* Label */ "こっそりラット"
+        /* Label */ "Ｒａｔ　Ｒａｃｅ",
     },
     /* Flash Memory Test */ {
         /* Scene */ &scene_flash_mem_test,
-        /* Label */ "フラッシュメモリテスト"
+        /* Label */ "Ｆｌａｓｈ　Ｍｅｍｏｒｙ　Ｔｅｓｔ",
     },
     /* Fireworks */ {
         /* Scene */ &scene_fireworks,
-        /* Label */ "ハナビ"
+        /* Label */ "Ｆｉｒｅｗｏｒｋｓ",
     },
     /* Metronome */ {
         /* Scene */ &scene_metronome,
-        /* Label */ "メトロノーム"
+        /* Label */ "Ｍｅｔｒｏｎｏｍｅ　（Ｕｎｕｓｅｄ）",
     },
     /* Bunny Hop */ {
         /* Scene */ &scene_bunny_hop,
-        /* Label */ "ウサギとび"
+        /* Label */ "Ｂｕｎｎｙ　Ｈｏｐ",
     },
     /* Dance Lesson 1 */ {
         /* Scene */ &scene_remix_1_unused,
-        /* Label */ "ダンスレッスン　１"
+        /* Label */ "Ｄａｎｃｅ　Ｌｅｓｓｏｎ　１　（Ｕｎｕｓｅｄ）",
     },
     /* Wizard's Waltz */ {
         /* Scene */ &scene_wizards_waltz,
-        /* Label */ "まほうつかい"
+        /* Label */ "Ｗｉｚａｒｄ’ｓ　Ｗａｌｔｚ",
     },
     /* Marching Orders */ {
         /* Scene */ &scene_marching_orders,
-        /* Label */ "マーチャ"
+        /* Label */ "Ｍａｒｃｈｉｎｇ　Ｏｒｄｅｒｓ",
     },
     /* Marching Orders 2 */ {
         /* Scene */ &scene_marching_orders_2,
-        /* Label */ "マーチャ　２"
+        /* Label */ "Ｍａｒｃｈｉｎｇ　Ｏｒｄｅｒｓ　２",
     },
     /* Mechanical Horse */ {
         /* Scene */ &scene_mechanical_horse,
-        /* Label */ "うま（スピード）"
+        /* Label */ "Ｈｏｒｓｅ　Ｍａｃｈｉｎｅ",
     },
     /* Tap Trial */ {
         /* Scene */ &scene_tap_trial,
-        /* Label */ "タップダンズ"
+        /* Label */ "Ｔａｐ　Ｔｒｉａｌ",
     },
     /* Tap Trial 2 */ {
         /* Scene */ &scene_tap_trial_2,
-        /* Label */ "スーパータップ"
+        /* Label */ "Ｔａｐ　Ｔｒｉａｌ　２",
     },
     /* Samurai Slice */ {
         /* Scene */ &scene_samurai_slice,
-        /* Label */ "いあいぎり"
+        /* Label */ "Ｓａｍｕｒａｉ　Ｓｌｉｃｅ",
     },
     /* Spaceball */ {
         /* Scene */ &scene_spaceball,
-        /* Label */ "エアーバッター"
+        /* Label */ "Ｓｐａｃｅｂａｌｌ",
     },
     /* Spaceball 2 */ {
         /* Scene */ &scene_spaceball_2,
-        /* Label */ "エアーバッター２"
+        /* Label */ "Ｓｐａｃｅｂａｌｌ　２",
     },
     /* Sneaky Spirits */ {
         /* Scene */ &scene_sneaky_spirits,
-        /* Label */ "しろいおばけ"
+        /* Label */ "Ｓｎｅａｋｙ　Ｓｐｉｒｉｔｓ",
     },
     /* Sneaky Spirits 2 */ {
         /* Scene */ &scene_sneaky_spirits_2,
-        /* Label */ "しろいおばけ　２"
+        /* Label */ "Ｓｎｅａｋｙ　Ｓｐｉｒｉｔｓ　２",
     },
     /* Ninja Bodyguard */ {
         /* Scene */ &scene_ninja_bodyguard,
-        /* Label */ "ニンジャ"
+        /* Label */ "Ｎｉｎｊａ　Ｂｏｄｙｇｕａｒｄ",
     },
     /* Ninja Bodyguard 2 */ {
         /* Scene */ &scene_ninja_reincarnate,
-        /* Label */ "ニンジャ　２"
+        /* Label */ "Ｎｉｎｊａ　Ｄｅｓｃｅｎｄａｎｔ",
     },
     /* Bouncy Road */ {
         /* Scene */ &scene_bouncy_road,
-        /* Label */ "ホッピングロード"
+        /* Label */ "Ｂｏｕｎｃｙ　Ｒｏａｄ",
     },
     /* Bouncy Road 2 */ {
         /* Scene */ &scene_bouncy_road_2,
-        /* Label */ "ホッピングロード　２"
+        /* Label */ "Ｂｏｕｎｃｙ　Ｒｏａｄ　２",
     },
     /* Sick Beats */ {
         /* Scene */ &scene_sick_beats,
-        /* Label */ "バイキン　はかせ"
+        /* Label */ "Ｓｉｃｋ　Ｂｅａｔｓ",
     },
     /* Rhythm Tweezers */ {
         /* Scene */ &scene_rhythm_tweezers,
-        /* Label */ "リズムだつもう"
+        /* Label */ "Ｒｈｙｔｈｍ　Ｔｗｅｅｚｅｒｓ",
     },
     /* Rhythm Tweezers 2 */ {
         /* Scene */ &scene_rhythm_tweezers_2,
-        /* Label */ "リズムだつもう　２"
+        /* Label */ "Ｒｈｙｔｈｍ　Ｔｗｅｅｚｅｒｓ　２",
     },
     /* Night Walk */ {
         /* Scene */ &scene_night_walk,
-        /* Label */ "ナイト　ウォーク"
+        /* Label */ "Ｎｉｇｈｔ　Ｗａｌｋ",
     },
     /* Night Walk 2 */ {
         /* Scene */ &scene_night_walk_2,
-        /* Label */ "ナイト　ウォーク　２"
+        /* Label */ "Ｎｉｇｈｔ　Ｗａｌｋ　２",
     },
     /* Polyrhythm */ {
         /* Scene */ &scene_polyrhythm,
-        /* Label */ "ポリリズム"
+        /* Label */ "Ｐｏｌｙｒｈｙｔｈｍ",
     },
     /* Polyrhythm 2 */ {
         /* Scene */ &scene_polyrhythm_2,
-        /* Label */ "ポリリズム　２"
+        /* Label */ "Ｐｏｌｙｒｈｙｔｈｍ　２",
     },
     /* The Clappy Trio */ {
         /* Scene */ &scene_clappy_trio,
-        /* Label */ "パチパチ３にんしゅう"
+        /* Label */ "Ｔｈｅ　Ｃｌａｐｐｙ　Ｔｒｉｏ",
     },
     /* The Snappy Trio */ {
         /* Scene */ &scene_snappy_trio,
-        /* Label */ "バリバリ３にんしゅう"
+        /* Label */ "Ｔｈｅ　Ｓｎａｐｐｙ　Ｔｒｉｏ",
     },
     /* Karate Man */ {
         /* Scene */ &scene_karate_man,
-        /* Label */ "カラテカ"
+        /* Label */ "Ｋａｒａｔｅ　Ｍａｎ",
     },
     /* Karate Man 2 */ {
         /* Scene */ &scene_karate_man_2,
-        /* Label */ "カラテカ　２"
+        /* Label */ "Ｋａｒａｔｅ　Ｍａｎ　２",
     },
     /* R-IQ (Title Screen) */ {
         /* Scene */ &scene_title,
-        /* Label */ "Ｒ－ＩＱ　（タイトル）"
+        /* Label */ "Ｒ－ＩＱ　（Ｔｉｔｌｅ）",
     },
     /* R-IQ (Main Menu) */ {
         /* Scene */ &scene_main_menu,
-        /* Label */ "Ｒ－ＩＱ　（メニュー）"
+        /* Label */ "Ｒ－ＩＱ　（Ｍｅｎｕ）",
     },
     /* R-IQ (Game Select) */ {
         /* Scene */ &scene_game_select,
-        /* Label */ "Ｒ－ＩＱ　（ゲーム）"
+        /* Label */ "Ｒ－ＩＱ　（Ｇａｍｅ）",
     },
     /* R-IQ (Rhythm Data Room) */ {
         /* Scene */ &scene_data_room,
-        /* Label */ "Ｒ－ＩＱ　（しりょうしつ）"
+        /* Label */ "Ｒ－ＩＱ　（Ｌｅｔｔｅｒ）",
     },
     /* R-IQ (Studio) */ {
         /* Scene */ &scene_studio,
-        /* Label */ "Ｒ－ＩＱ　（スタジオ）"
+        /* Label */ "Ｒ－ＩＱ　（Ｓｔｕｄｉｏ）",
     },
     /* R-IQ (Options) */ {
         /* Scene */ &scene_options_menu,
-        /* Label */ "Ｒ－ＩＱ　（オプション）"
+        /* Label */ "Ｒ－ＩＱ　（Ｏｐｔｉｏｎ）",
     },
     /* R-IQ (Result 1) */ {
         /* Scene */ &scene_results_ver_debug,
-        /* Label */ "Ｒ－ＩＱ　（リザルト）"
+        /* Label */ "Ｒ－ＩＱ　（Ｒｅｓｕｌｔ）",
     },
     /* R-IQ (Result 2) */ {
         /* Scene */ &scene_results_ver_rank,
-        /* Label */ "Ｒ－ＩＱ　（リザルト２）"
+        /* Label */ "Ｒ－ＩＱ　（Ｒｅｓｕｌｔ　２）",
     },
     /* R-IQ (Result 3) */ {
         /* Scene */ &scene_results_ver_score,
-        /* Label */ "Ｒ－ＩＱ　（リザルト３）"
+        /* Label */ "Ｒ－ＩＱ　（Ｒｅｓｕｌｔ　３）",
     },
     /* R-IQ (Result 4) */ {
         /* Scene */ &scene_epilogue,
-        /* Label */ "Ｒ－ＩＱ　（リザルト４）"
+        /* Label */ "Ｒ－ＩＱ　（Ｒｅｓｕｌｔ　４）",
     },
     /* R-IQ (Rhythm Library) */ {
         /* Scene */ &scene_arrival,
-        /* Label */ "Ｒ－ＩＱ　（にゅうか）"
+        /* Label */ "Ｒ－ＩＱ　（Ｅｍａｉｌ）",
     },
     /* R-IQ (Perfect) */ {
         /* Scene */ &scene_perfect,
-        /* Label */ "Ｒ－ＩＱ　（パーフェクト）"
+        /* Label */ "Ｒ－ＩＱ　（Ｐｅｒｆｅｃｔ）",
     },
     /* R-IQ (Cafe) */ {
         /* Scene */ &scene_cafe,
-        /* Label */ "Ｒ－ＩＱ　（カウンセラー）"
+        /* Label */ "Ｒ－ＩＱ　（Ｃａｆｅ　Ｃｏｕｎｓｅｌｉｎｇ）",
     },
     /* R-IQ (Endless Games) */ {
         /* Scene */ &scene_endless_menu,
-        /* Label */ "Ｒ－ＩＱ　（ミニゲーム）"
+        /* Label */ "Ｒ－ＩＱ　（Ｅｎｄｌｅｓｓ　Ｇａｍｅｓ）",
     },
     /* R-IQ (Drum Lessons) */ {
         /* Scene */ &scene_lessons_menu,
-        /* Label */ "Ｒ－ＩＱ　（ドラムレッスン）"
+        /* Label */ "Ｒ－ＩＱ　（Ｄｒｕｍ　Ｌｅｓｓｏｎｓ）",
     },
     /* R-IQ (Rhythm Toys) */ {
         /* Scene */ &scene_toys_menu,
-        /* Label */ "Ｒ－ＩＱ　（おもちゃ）"
+        /* Label */ "Ｒ－ＩＱ　（Ｒｈｙｔｈｍ　Ｔｏｙｓ）",
     },
     /* R-IQ (Cafe) */ {
         /* Scene */ &scene_cafe,
-        /* Label */ "Ｒ－ＩＱ　（カウンセラー）"
+        /* Label */ "Ｒ－ＩＱ　（Ｃａｆｅ　Ｃｏｕｎｓｅｌｉｎｇ）",
     },
     /* Ending (from clearing Remix 6) */ {
         /* Scene */ &scene_staff_credit_remix_6,
-        /* Label */ "エンディング（クリアご）"
+        /* Label */ "Ｅｎｄｉｎｇ　（Ｇａｍｅ　Ｃｌｅａｒｅｄ）",
     },
     /* Ending (from Game Select) */ {
         /* Scene */ &scene_staff_credit,
-        /* Label */ "エンディング（おまけから）"
+        /* Label */ "Ｅｎｄｉｎｇ　（Ｅｘｔｒａ　Ｖｉｅｗｉｎｇｓ）",
     },
     /* Data Clear */ {
         /* Scene */ &scene_data_clear,
-        /* Label */ "データクリア"
+        /* Label */ "Ｓａｖｅ　Ｄａｔａ　Ｃｌｅａｒ",
     },
     END_OF_DEBUG_ENTRIES
 };

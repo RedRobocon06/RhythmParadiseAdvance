@@ -179,11 +179,11 @@ sb_stop
 @ Remix 6 - Rap Men Text
 
 text text_remix_6_honto_desu_ka
-    .asciz ".b:1ほんとです:0か？"
+    .asciz ".b:1Ｍａｙｂｅ　ｓｏ，　.b:0ｈｕｈ？.8:1"
 endtext
 
 text text_remix_6_kimi_tte_saikou
-    .asciz ".a:1キミって　:0サイコー！！"
+    .asciz ".a:1Ｙｏｕ　ａｒｅ　.a:0ｓｏ　ＡＷＥＳＯＭＥ！.8:0"
 endtext
 
 
@@ -358,6 +358,9 @@ script script_remix_6_main
     rest 6
     rat_race_event0D 2
     rat_race_event01 2
+    #ifdef PLUS
+    play_sfx s_rat_squeak_seqData
+    #endif
     spawn_cue CUE_DASH
     rest 12
     rest 6
@@ -941,6 +944,9 @@ script script_remix_6_main
     spawn_cue CUE_BUNNY_03
     beat_anim
     rest 24
+    #ifdef PLUS
+    bunny_hop_event07 s_rabbit_break_seqData
+    #endif
     bunny_hop_event01 5
     spawn_cue CUE_BUNNY_06
     spawn_cue CUE_BUNNY_07
@@ -959,7 +965,11 @@ script script_remix_6_main
     beat_anim
     rest 24
     print_text_f text_remix_6_kimi_tte_saikou
+    #ifdef SFX
+    play_sfx s_rap_kimitte_saiko_slow_seqData
+    #else
     run remix6_sync_rap_vocal, s_rap_kimitte_saiko_seqData
+    #endif
     rap_men_animate_rapper ANIM_SAIKO
     beat_anim
     rest 24
@@ -978,7 +988,11 @@ script script_remix_6_main
     rest 24
     rest 8
     rest 8
+    #ifdef SFX
+    play_sfx s_rap_honto_desuka_slow_seqData
+    #else
     run remix6_sync_rap_vocal, s_rap_honto_desuka_seqData
+    #endif
     rap_men_animate_rapper ANIM_HONTO
     rest 8
     print_text_f text_remix_6_honto_desu_ka
@@ -1285,6 +1299,67 @@ script script_remix_6_main
     beat_anim
     rest 24
 
+    #ifdef SFX
+    load_rhythm_tweezers
+    rhythm_tweezers_start_hair_cycle
+    spawn_cue CUE_SHORT
+    rest 24
+    spawn_cue CUE_SHORT
+    rest 24
+    rhythm_tweezers_spawn_tweezers
+    spawn_cue CUE_SHORT
+    rest 24
+    spawn_cue CUE_SHORT
+    rest 24
+    rest 24
+    rest 24
+    rest 24
+    rest 6
+    rhythm_tweezers_set_next_veg VEG_ONION
+    rhythm_tweezers_scroll_veg 12
+    rhythm_tweezers_play_register_sfx
+    rest 6
+    rhythm_tweezers_removed_event
+    rest 12
+    rhythm_tweezers_start_hair_cycle
+    spawn_cue CUE_SHORT
+    rest 24
+    spawn_cue CUE_SHORT
+    rest 12
+    spawn_cue CUE_SHORT
+    rest 12
+    rhythm_tweezers_spawn_tweezers
+    spawn_cue CUE_LONG
+    rest 24
+    spawn_cue CUE_SHORT
+    rest 24
+    rest 24
+    rest 24
+    rest 24
+    rest 18
+    play_sfx s_guntai_v_zentai_a_seqData
+    rest 6
+
+    load_marching_orders
+    marching_orders_event01
+    play_sfx s_guntai_v_zentai_ten_seqData
+    rest 9
+    play_sfx s_guntai_v_zentai_ttion_seqData
+    rhythm_tweezers_removed_event
+    rest 15
+    rest 24
+    call marching_orders_sub_08a837ac
+    rest 24
+    call marching_orders_sub_08a8386c_nobeat
+    call marching_orders_sub_08a83998
+    beat_anim
+    rest 24
+    beat_anim
+    rest 24
+    beat_anim
+    rest 24
+
+    #else
     load_rhythm_tweezers
     rhythm_tweezers_start_hair_cycle
     spawn_cue CUE_SHORT
@@ -1336,6 +1411,7 @@ script script_remix_6_main
     rest 24
     beat_anim
     rest 24
+    #endif
 
     load_space_dance
     space_dance_event01 -8, -24

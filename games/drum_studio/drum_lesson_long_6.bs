@@ -31,8 +31,9 @@ define_gameplay_scene scene_drum_lesson_long_6, script_drum_lesson_long_6_entry
 
 text D_08064874
     .ascii "\n"
-    .ascii "まずは、おさらいです。\n"
-    .asciz "がんばってネ！"
+    .ascii "Let's just start with\n"
+    .ascii "the end of last lesson.\n"
+    .asciz "Show me you still got it!"
 endtext
 
 
@@ -98,10 +99,10 @@ return
 
 
 text D_08064b30
-    .ascii "\n"
-    .ascii "後半をかえてみます。\n"
-    .ascii "よ～くきいて、\n"
-    .asciz "ちゃんとマネしてネ！\n"
+    .ascii "Now, let's switch it up\n"
+    .ascii "on the second half!\n"
+    .ascii "The beat's a bit odd; listen\n"
+    .asciz "closely and follow my lead!"
 endtext
 
 
@@ -152,10 +153,10 @@ return
 
 
 text D_08064d70
-    .ascii "\n"
-    .ascii "シンバルをかさねて\n"
-    .ascii "ハデにしてみよう！\n"
-    .asciz "できるかな？"
+    .ascii "Let's stack up some cymbals\n"
+    .ascii "to really make it stand out!\n"
+    .ascii "It's not that different from\n"
+    .asciz "before, so don't worry!"
 endtext
 
 
@@ -211,9 +212,9 @@ return
 
 text D_08064fd8
     .ascii "\n"
-    .ascii "タムも入れて、もっと\n"
-    .ascii "ハデにしちゃおう！\n"
-    .asciz "イケイケ～！"
+    .ascii "Okay, now add some toms, to\n"
+    .ascii "give the beat some oomph!\n"
+    .asciz "We're on a roll! Let's go!"
 endtext
 
 
@@ -271,10 +272,10 @@ return
 
 
 text D_08065268
-    .ascii "\n"
-    .ascii "さっき入れたタムを\n"
-    .ascii "ロールにかえてみよう！\n"
-    .asciz "シブすぎるかも！！"
+    .ascii "Final step! Replace the tom\n"
+    .ascii "we just added with a roll!\n"
+    .ascii "It sounds so cool now, it's\n"
+    .asciz "almost hard to believe!"
 endtext
 
 
@@ -333,23 +334,25 @@ return
 
 text D_08065500
     .ascii "\n"
-    .ascii "今回は、\n"
-    .ascii "１つ前のレッスンを\n"
-    .asciz "応用してみます。"
+    .ascii "For this lesson,\n"
+    .ascii "we'll pick up from right\n"
+    .asciz "where we last left off."
 endtext
 
 
 text D_08065530
     .ascii "\n"
-    .ascii "１つ前のレッスンを\n"
-    .ascii "クリアしてから、\n"
-    .asciz "挑戦してネ！"
+    .ascii "I'd suggest you first brush\n"
+    .ascii "up on Advanced 5 before\n"
+    .asciz "giving this one a try!"
 endtext
 
 
 text D_08065564
     .ascii "\n"
-    .asciz "では、はじめまーす！"
+    .ascii "You ready to go?\n"
+    .asciz "Alright, let's do this!"
+
 endtext
 
 

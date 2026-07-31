@@ -1,6 +1,7 @@
 #include "global.h"
 #include "title.h"
 #include "graphics/title/title_graphics.h"
+#include "src/code_080092cc.h"
 
 
 /* TITLE SCENE */
@@ -38,8 +39,16 @@ void title_logo_init(void) {
 
         bubble->active = FALSE;
         bubble->letter = sprite_create(gSpriteHandler, letter->anim, 0, letter->x, letter->y, 0x4800, 0, 0, 0x8000);
-        bubble->inner = sprite_create(gSpriteHandler, anim_title_logo_bubble_inner, 0, letter->x, letter->y, 0x4801, 0, 0, 0x8000);
-        bubble->outer = sprite_create(gSpriteHandler, anim_title_logo_bubble_outer, 0, letter->x, letter->y, 0x4802, 0, 0, 0x8000);
+        if (letter->anim == anim_title_logo_advance) {
+            bubble->inner = sprite_create(gSpriteHandler, anim_title_blank1, 0, letter->x, letter->y, 0x4801, 0, 0, 0x8000);
+        }
+        else
+            bubble->inner = sprite_create(gSpriteHandler, anim_title_logo_bubble_inner, 0, letter->x, letter->y, 0x4801, 0, 0, 0x8000);
+        if (letter->anim == anim_title_logo_advance) {
+            bubble->outer = sprite_create(gSpriteHandler, anim_title_blank1, 0, letter->x, letter->y, 0x4802, 0, 0, 0x8000);
+        }
+        else
+            bubble->outer = sprite_create(gSpriteHandler, anim_title_logo_bubble_outer, 0, letter->x, letter->y, 0x4802, 0, 0, 0x8000);
         bubble->centerX = letter->x;
         bubble->centerY = letter->y;
         bubble->riseDistance = (agb_random(20) - 10) + 160;
@@ -96,8 +105,11 @@ void title_logo_bounce_all(void) {
         struct LogoBubble *bubble = &gTitle->logoBubbles[i];
 
         if (bubble->active) {
-            bubble->bounceDistance += INT_TO_FIXED(6.0);
-            bubble->bounceAngle = bubble->bounceBaseAngle + agb_random(INT_TO_FIXED(2.0 / 8)) - INT_TO_FIXED(1.0 / 8);
+            bubble->bounceDistance += INT_TO_FIXED(4.0);
+            if (bubble->bounceBaseAngle == 37) {
+                bubble->bounceAngle = bubble->bounceBaseAngle + INT_TO_FIXED(2.0 / 8) - INT_TO_FIXED(1.0 / 8); }
+            else
+                bubble->bounceAngle = bubble->bounceBaseAngle + agb_random(INT_TO_FIXED(2.0 / 8)) - INT_TO_FIXED(1.0 / 8);
             title_logo_set_bubble_pos(i);
         }
     }
@@ -115,7 +127,7 @@ void title_logo_bounce_bubble(s32 id) {
     bubble = &gTitle->logoBubbles[gTitle->nextLogoBubble];
 
     if (bubble->active) {
-        bubble->bounceDistance += INT_TO_FIXED(10.0);
+        bubble->bounceDistance += INT_TO_FIXED(5.0);
 
         gTitle->nextLogoBubble++;
         if (gTitle->nextLogoBubble >= TOTAL_TITLE_LOGO_BUBBLES) {
@@ -165,7 +177,7 @@ void title_scene_start(void *sVar, s32 dArg) {
     func_08007324(FALSE);
     func_080073f0();
 
-    gTitle->directiveText = sprite_create(gSpriteHandler, anim_title_text, 0, 120, 132, 0x800, 1, 0x7f, 0x8000);
+    gTitle->directiveText = sprite_create(gSpriteHandler, anim_title_text, 0, 120, 129, 0x800, 1, 0x7f, 0x8000);
     gTitle->stars = sprite_create(gSpriteHandler, anim_title_stars_appear, 0, 120, 64, 0x4864, 1, 0x7f, 0x8000);
     textPrinter = text_printer_create_new(get_current_mem_id(), 1, 240, 32);
     text_printer_set_x_y(textPrinter, 0, 8);

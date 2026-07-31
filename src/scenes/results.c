@@ -544,7 +544,7 @@ void results_render_skill_screen(void) {
     char numString[0x20];
     u32 badInputScore, score, level;
 
-    textAnim = bmp_font_obj_print_c(gResults->objFont, ":1" "＊＊＊＊" ":0" "　　さいてん　　" ":1" "＊＊＊＊", 0, 7);
+    textAnim = bmp_font_obj_print_c(gResults->objFont, ":1" "＊＊＊＊" ":0" "　　Ｇｒａｄｅ　　" ":1" "＊＊＊＊", 0, 7);
     sprite_create(gSpriteHandler, textAnim->frames, 0, 120, 16, 0x4800, 1, 0, 0);
 
     results_tracker_calculate_skill_averages();
@@ -660,9 +660,20 @@ u32 results_get_negative_comments(void) {
     for (i = 0; i < totalFailed; i++) {
         struct Animation *anim;
         u16 sprite;
+        char modifiedComment[0x100];
+
+        // Copy the comment to a modifiable buffer, TO BE ABLE TO ALTER IT CAUSE YOU CANT CHANGE THEM UNLESS YOU FIRST COPY THEM WHICH IS ANNOYING
+        strcpy(modifiedComment, comments[i]);
+
+        // Convert the first character to lowercase for all the comments except the first one
+        // Except for sentences where you don't need to change the capitalization
+        if (i > 0 && modifiedComment[0] >= 'A' && modifiedComment[0] <= 'Z' && !(modifiedComment[0] == 'I' && (modifiedComment[1] == ' ' || modifiedComment[1] == '\''))) {
+            modifiedComment[0] += 32;
+        }
 
         strcpy(commentsText, results_try_again_comment_pool[clamp_int32(i, 0, 2)]);
-        strcat(commentsText, comments[i]);
+        strcat(commentsText, modifiedComment);
+
         anim = results_get_comment_anim(commentsText, TEXT_ANCHOR_BOTTOM_LEFT, 3);
         sprite = sprite_create(gSpriteHandler, anim, 0, 0, 0, 0x800, 0, 0, 0);
         sprite_set_base_palette(gSpriteHandler, sprite, COMMENT_PALETTE);
@@ -676,8 +687,8 @@ u32 results_get_negative_comments(void) {
 // [D_089d7b34] Rank Comment Pool (Try Again)
 const char *results_try_again_comment_pool[] = {
     "",
-    "また、",
-    "あと、"
+    "...And, ",
+    "...Also, "
 };
 
 
@@ -691,6 +702,7 @@ s24_8 results_get_positive_comments(void) {
     s24_8 averagePassed;
     u16 *commentSprites;
     u32 imperfectionPenalty;
+    char modifiedComment[0x100];
 
     tracker = score_handler->cueInputTrackers;
     commentSprites = &gResults->commentSprites[gResults->totalNegativeComments];
@@ -733,25 +745,39 @@ s24_8 results_get_positive_comments(void) {
         if (!passedThisCriterion) {
             continue;
         }
+        
+        strcpy(modifiedComment, criteria->positiveRemark);
 
         if (gResults->totalNegativeComments > 0) {
-            memcpy(commentsText, "…でも、", 9); // ("...but,")
-            strcat(commentsText, criteria->positiveRemark);
+
+            // Same system as before
+            if (modifiedComment[0] >= 'A' && modifiedComment[0] <= 'Z' && !(modifiedComment[0] == 'I' && (modifiedComment[1] == ' ' || modifiedComment[1] == '\''))) {
+                modifiedComment[0] += 32;
+            }
+
+            memcpy(commentsText, "...But ", 8);
+            strcat(commentsText, modifiedComment);
             anim = results_get_comment_anim(commentsText, TEXT_ANCHOR_BOTTOM_RIGHT, 3);
             palette = EXTRA_COMMENT_PALETTE;
         } else {
+
+            // Same system as above
+            if (totalPassed > 0 && modifiedComment[0] >= 'A' && modifiedComment[0] <= 'Z' && !(modifiedComment[0] == 'I' && (modifiedComment[1] == ' ' || modifiedComment[1] == '\''))) {
+                modifiedComment[0] += 32;
+            }
+
             switch (totalPassed) {
                 case 0:
                     memcpy(commentsText, "", 1);
                     break;
                 case 1:
-                    memcpy(commentsText, "しかも、", 9); // ("moreover,")
+                    memcpy(commentsText, "...And ", 10); // ("moreover,")
                     break;
                 default:
-                    memcpy(commentsText, "さらに、", 9); // ("also,")
+                    memcpy(commentsText, "...Plus, ", 12); // ("also,")
                     break;
             }
-            strcat(commentsText, criteria->positiveRemark);
+            strcat(commentsText, modifiedComment);
             anim = results_get_comment_anim(commentsText, TEXT_ANCHOR_BOTTOM_LEFT, 3);
             palette = COMMENT_PALETTE;
         }
@@ -788,10 +814,10 @@ s24_8 results_get_positive_comments(void) {
 
 // [D_089d7b40] Rank Comment Pool (OK)
 const char *results_ok_comment_pool[] = {
-    "よしと　します。",
-    "とりあえず．．．",
-    "まぁまぁ、　かな。",
-    "う～ん．．．"
+    "I guess that was all right.",
+    "Good enough...",
+    "I don't know...",
+    "Hm..."
 };
 
 

@@ -5,212 +5,208 @@
 /* Script Data - Staff Credits */
 
 
-const char D_08069a48[] = "STAFF CREDITS";
+const char D_08069a48[] = "Staff Credits";
 
-const char D_08069a58[] = "PRODUCERS";
+const char D_08069a58[] = "Producers";
 
-const char D_08069a64[] = "つんく♂";
+const char D_08069a64[] = "TSUNKU♂";
 
-const char D_08069a70[] = "Y.SAKAMOTO";
+const char D_08069a70[] = "Y. Sakamoto";
 
-const char D_08069a7c[] = "SUPERVISORS";
+const char D_08069a7c[] = "Supervisors";
 
-const char D_08069a88[] = "K.YAMANO";
+const char D_08069a88[] = "K. Yamano";
 
-const char D_08069a94[] = "H.IIDA";
+const char D_08069a94[] = "H. Iida";
 
-const char D_08069a9c[] = "N.UMEMOTO";
+const char D_08069a9c[] = "N. Umemoto";
 
-const char D_08069aa8[] = "CHIEF DIRECTOR";
+const char D_08069aa8[] = "Chief Director";
 
-const char D_08069ab8[] = "K.OSAWA";
+const char D_08069ab8[] = "K. Osawa";
 
-const char D_08069ac0[] = "GAME DESIGN";
+const char D_08069ac0[] = "Game Design";
 
-const char D_08069acc[] = "K.TAKEUCHI";
+const char D_08069acc[] = "K. Takeuchi";
 
-const char D_08069ad8[] = "M.YONE";
+const char D_08069ad8[] = "M. Yone";
 
-const char D_08069ae0[] = "S.IKEO";
+const char D_08069ae0[] = "S. Ikeo";
 
-const char D_08069ae8[] = "N.FURUTA";
+const char D_08069ae8[] = "N. Furuta";
 
-const char D_08069af4[] = "R.TAKAHASHI";
+const char D_08069af4[] = "R. Takahashi";
 
-const char D_08069b00[] = "Y.TAKEUCHI";
+const char D_08069b00[] = "Y. Takeuchi";
 
-const char D_08069b0c[] = "M.KAWANO";
+const char D_08069b0c[] = "M. Kawano";
 
-const char D_08069b18[] = "PROGRAM DIRECTOR";
+const char D_08069b18[] = "Program Director";
 
-const char D_08069b2c[] = "PROGRAMMING";
+const char D_08069b2c[] = "Programming";
 
-const char D_08069b38[] = "DESIGN DIRECTOR";
+const char D_08069b38[] = "Design Director";
 
-const char D_08069b48[] = "DESIGN";
+const char D_08069b48[] = "Design";
 
-const char D_08069b50[] = "F.MIYAMOTO";
+const char D_08069b50[] = "F. Miyamoto";
 
-const char D_08069b5c[] = "SOUND DIRECTORS";
+const char D_08069b5c[] = "Sound Directors";
 
-const char D_08069b6c[] = "H.OGURO";
+const char D_08069b6c[] = "H. Oguro";
 
-const char D_08069b74[] = "K.KAMADA";
+const char D_08069b74[] = "K. Kamada";
 
-const char D_08069b80[] = "MUSIC";
+const char D_08069b80[] = "Music";
 
-const char D_08069b88[] = "MUSIC ARRANGEMENT";
+const char D_08069b88[] = "Music Arrangement";
 
-const char D_08069b9c[] = "K.YUASA";
+const char D_08069b9c[] = "K. Yuasa";
 
-const char D_08069ba4[] = "H.D.SUZUKI";
+const char D_08069ba4[] = "H. D. Suzuki";
 
-const char D_08069bb0[] = "K.OKUBO";
+const char D_08069bb0[] = "K. Okubo";
 
-const char D_08069bb8[] = "D.SHIIBA";
+const char D_08069bb8[] = "D. Shiiba";
 
-const char D_08069bc4[] = "SOUND EFFECT";
+const char D_08069bc4[] = "Sound Effects";
 
-const char D_08069bd4[] = "T.FUJII";
+const char D_08069bd4[] = "T. Fujii";
 
-const char D_08069bdc[] = "SONG";
+const char D_08069bdc[] = "Singers";
 
-const char D_08069be4[] = "時東　ぁみ";
+const char D_08069be4[] = "Ami Tokito";
 
-const char D_08069bf0[] = "田中　総史";
+const char D_08069bf0[] = "Soshi Tanaka";
 
-const char D_08069bfc[] = "VOICE";
+const char D_08069bfc[] = "Voice";
 
-const char D_08069c04[] = "N.KITAMURA";
+const char D_08069c04[] = "N. Kitamura";
 
-const char D_08069c10[] = "M.NOMURA";
+const char D_08069c10[] = "M. Nomura";
 
-const char D_08069c1c[] = "DEBUG";
+const char D_08069c1c[] = "European Localisation";
 
-const char D_08069c24[] = "Y.ADACHI";
+const char D_08069c24[] = "Localisation Management";
 
-const char D_08069c30[] = "N.HASHIDA";
+const char D_08069c30[] = "";
 
-const char D_08069c3c[] = "S.TAKADA";
+const char D_08069c3c[] = "A. Fey";
 
-const char D_08069c48[] = "D.NISHIKAWA";
+const char D_08069c48[] = "M. Weers";
 
-const char D_08069c54[] = "R.SUGO";
+const char D_08069c54[] = "";
 
-const char D_08069c5c[] = "S.ADACHI";
+const char D_08069c5c[] = "Translation";
 
-const char D_08069c68[] = "H.SAKAGUCHI";
+const char D_08069c68[] = "";
 
-const char D_08069c74[] = "N.WATANABE";
+const char D_08069c74[] = "G. Howells";
 
-const char D_08069c80[] = "H.MATSUDA";
+const char D_08069c80[] = "T. Berthollet";
 
-const char D_08069c8c[] = "D.MORITA";
+const char D_08069c8c[] = "S. Bretant";
 
-const char D_08069c98[] = "K.UMEDA";
+const char D_08069c98[] = "A. Jahn";
 
-const char D_08069ca0[] = "Y.NAKAI";
+const char D_08069ca0[] = "";
 
-const char D_08069ca8[] = "Y.FUJIKAWA";
+const char D_08069ca8[] = "NOE Testing Team";
 
-const char D_08069cb4[] = "K.NISHIMOTO";
+const char D_08069cb4[] = "";
 
-const char D_08069cc0[] = "T.AKIHO";
+const char D_08069cc0[] = "M. Mawer";
 
-const char D_08069cc8[] = "J.TERAI";
+const char D_08069cc8[] = "M. Springinsfeld";
 
-const char D_08069cd0[] = "A.SHIMIZUBATA";
+const char D_08069cd0[] = "A. Danieli";
 
-const char D_08069ce0[] = "Y.YAMASHITA";
+const char D_08069ce0[] = "A. D. Benedetto";
 
-const char D_08069cec[] = "SPECIAL THANKS";
+const char D_08069cec[] = "Special Thanks";
 
-const char D_08069cfc[] = "Y.KURATSUNE";
+const char D_08069cfc[] = "Y. Kuratsune";
 
-const char D_08069d08[] = "R.KAIMOTO";
+const char D_08069d08[] = "R. Kaimoto";
 
-const char D_08069d14[] = "H.SAKAGAMI";
+const char D_08069d14[] = "H. Sakagami";
 
-const char D_08069d20[] = "R.YOSHITOMI";
+const char D_08069d20[] = "R. Yoshitomi";
 
-const char D_08069d2c[] = "S.YAMAMOTO";
+const char D_08069d2c[] = "S. Yamamoto";
 
-const char D_08069d38[] = "T.HOTTA";
+const char D_08069d38[] = "T. Hotta";
 
-const char D_08069d40[] = "N.MATSUMIYA";
+const char D_08069d40[] = "N. Matsumiya";
 
-const char D_08069d4c[] = "みつばち　まき";
+const char D_08069d4c[] = "M. Mitsubachi";
 
-const char D_08069d5c[] = "A.KENMOCHI";
+const char D_08069d5c[] = "A. Kenmochi";
 
-const char D_08069d68[] = "H.NAKANO";
+const char D_08069d68[] = "H. Nakano";
 
-const char D_08069d74[] = "あなた";
+const char D_08069d74[] = "You";
 
-const char D_08069d7c[] = "EXECUTIVE";
+const char D_08069d7c[] = "";
 
-const char D_08069d88[] = "      PRODUCERS";
+const char D_08069d88[] = "Executive Producers";
 
-const char D_08069d98[] = "S.IWATA";
+const char D_08069d98[] = "S. Iwata";
 
-const char D_08069da0[] = "S.TERAI";
+const char D_08069da0[] = "S. Terai";
 
 const char D_08069da8[] = "";
 
-const char D_08069dac[] = "(C)2006 Nintendo/J.P.ROOM";
+const char D_08069dac[] = "(C) 2006-2007 Nintendo/J.P.ROOM";
 
 const char D_08069dc8[] =
-    "\n"
-    "\n"
-    "おつかれさま！";
+    "\n"    
+    "Hey, great work!";
 
 const char D_08069ddc[] =
-    "がんばりましたネ！\n"
-    "あなたの　リズム感、\n"
-    "良くなっていると\n"
-    "うれしいな。";
+    "You worked hard out there!\n"
+    "I sure hope your sense\n"
+    "of rhythm has gotten\n"
+    "some improvement.";
 
 const char D_08069e24[] =
-    "クリアしたゲームは\n"
-    "なれたころが　いちばん\n"
-    "楽しいから、またあとで\n"
-    "あそんでみてネ！";
+    "You may have cleared the\n"
+    "game, but it gets more\n"
+    "fun as you keep playing\n"
+    "and get the hang of it!";
 
 const char D_08069e78[] =
-    "ゲームは、あとすこしだけ\n"
-    "つづくんだけど、ここで\n"
-    "スタッフのメンバー紹介を\n"
-    "させてくださいネ。";
+    "There's more to play in a bit,\n"
+    "but let me show you\n"
+    "all of the people who\n"
+    "worked on the game.";
 
 const char D_08069ed4[] =
     "\n"
-    "\n"
-    "では、どうぞ～！";
+    "Well, here we go!";
 
 const char D_08069ee8[] =
     "\n"
-    "\n"
-    "こんにちは！";
+    "Hello there!";
 
 const char D_08069ef8[] =
-    "がんばってますか？\n"
-    "あなたの　リズム感、\n"
-    "良くなっていると\n"
-    "うれしいな。";
+    "Are you holding up well?\n"
+    "I sure hope your sense\n"
+    "of rhythm has gotten\n"
+    "some improvement.";
 
 const char D_08069f40[] =
-    "クリアしたゲームは\n"
-    "なれたころが　いちばん\n"
-    "楽しいから、何回も\n"
-    "あそんでみてネ！";
+    "You may have cleared the\n"
+    "game, but it gets more\n"
+    "fun as you replay games\n"
+    "and master them!";
 
 const char D_08069f90[] =
-    "そうそう、\n"
-    "ゲームのスタッフでしたね。\n"
-    "今は、どんなゲームを\n"
-    "作ってるんでしょうねぇ…";
+    "Anyway, here's all the people\n"
+    "who worked on the game.\n"
+    "I wonder what they're\n"
+    "working on now...";
 
 const char D_08069fe4[] =
-    "\x01\x43" "ま、それはさておき。\n"
     "\n"
-    "では、どうぞ～！";
+    "Well, here we go!";

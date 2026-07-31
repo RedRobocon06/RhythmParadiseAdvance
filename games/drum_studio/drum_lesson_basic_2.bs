@@ -30,10 +30,10 @@ define_gameplay_scene scene_drum_lesson_basic_2, script_drum_lesson_basic_2_entr
 @ Drum Lesson (Basic 2) - Data
 
 text D_08061998
-    .ascii "よくきいてマネしてね。\n"
-    .ascii "好きなタイミングでどうぞ。\n"
-    .ascii "演奏を止めると、\n"
-    .asciz "お手本がきけるヨ！"
+    .ascii "Listen to my pattern, then\n"
+    .ascii "repeat when you're ready.\n"
+    .ascii "I'll show it to you again\n"
+    .asciz "if you stop playing."
 endtext
 
 
@@ -55,8 +55,9 @@ return
 
 text D_08061a68
     .ascii "\n"
-    .ascii "１カ所、音が変わるヨ！\n"
-    .asciz "わかるかな？"
+    .ascii "I swapped a bass beat\n"
+    .ascii "out for a snare beat.\n"
+    .asciz "Hear the difference?"
 endtext
 
 
@@ -72,9 +73,8 @@ return
 
 text D_08061ae4
     .ascii "\n"
-    .ascii "さらに１カ所、\n"
-    .ascii "音が変わるヨ！\n"
-    .asciz "わかるかな？"
+    .ascii "Now, another beat swap!\n"
+    .asciz "Think you can do it?\n"
 endtext
 
 
@@ -90,9 +90,9 @@ return
 
 text D_08061b64
     .ascii "\n"
-    .ascii "こんどは１つ、\n"
-    .ascii "音がふえるヨ！\n"
-    .asciz "わかるかな？\n"
+    .ascii "Let's throw in one\n"
+    .ascii "more bass beat!\n"
+    .asciz "You got this!"
 endtext
 
 
@@ -109,10 +109,10 @@ return
 
 
 text D_08061c00
-    .ascii "\n"
-    .ascii "さらに１つ、\n"
-    .ascii "音がふえるヨ！\n"
-    .asciz "わかるかな？"
+    .ascii "You hear that new bass beat?\n"
+    .ascii "Alternating between both\n"
+    .ascii "⑮ and Down on ⑯ should\n"
+    .asciz "make it easy!"
 endtext
 
 
@@ -131,10 +131,10 @@ return
 
 
 text D_08061cb0
-    .ascii "\n"
-    .ascii "またまた１つ、\n"
-    .ascii "音がふえるヨ！\n"
-    .asciz "わかるかな？"
+    .ascii "Here's one more new beat!\n"
+    .ascii "This is the last set in this\n"
+    .ascii "lesson, so show me what\n"
+    .asciz "you've learned!"
 endtext
 
 
@@ -147,33 +147,33 @@ return
 
 
 text D_08061d18
-    .ascii "今回は、バスドラムと\n"
-    .ascii "スネアドラムという、\n"
-    .ascii "２つのタイコを使って\n"
-    .asciz "レッスンをしましょう。"
+    .ascii "\n"
+    .ascii "In this lesson,\n"
+    .ascii "we'll be using two drums:\n"
+    .asciz "the bass and the snare.\n"
 endtext
 
 
 text D_08061d70
     .ascii "\n"
-    .ascii "Bボタンと十\字ボタンの下、\n"
-    .ascii "どちらでもバスドラムを\n"
-    .asciz "たたくことができるヨ！"
+    .ascii "Hit the bass drum with ⑮\n"
+    .asciz "or by pressing Down on ⑯!\n"
 endtext
 
 
 text D_08061dbc
-    .ascii "\n"
-    .ascii "しってると思うけど\n"
-    .ascii "スネアドラムはAボタンと\n"
-    .asciz "十\字ボタンの左だからネ。"
+    .ascii "If you've played the last\n"
+    .ascii "lesson, you know you can\n"
+    .ascii "hit either ⑭ or Left on ⑯\n"
+    .asciz "to play the snare."
 endtext
 
 
 text D_08061e04
     .ascii "\n"
-    .ascii "では　ぼちぼち\n"
-    .asciz "はじめますネ～\n"
+    .ascii "Keep all of that in mind\n"
+    .ascii "as you play this set!\n"
+    .ascii "Let's begin, taking it slow.\n"
 endtext
 
 
