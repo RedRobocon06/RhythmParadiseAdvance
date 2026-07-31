@@ -86,7 +86,7 @@ enum InstrumentBanksEnum {
 	/* 032 */ INST_BANK_15,
 	/* 033 */ INST_BANK_16,
 	/* 034 */ INST_BANK_17,
-	/* 035 */ INST_BANK_UNUSED_35,
+	/* 035 */ INST_BANK_SPACE_DANCE_EN,
 	/* 036 */ INST_BANK_UNUSED_36,
 	/* 037 */ INST_BANK_UNUSED_37,
 	/* 038 */ INST_BANK_UNUSED_38,
@@ -361,7 +361,8 @@ struct MidiBus {
     u16 *tuningTable;       // MIDI key frequency table.
     union Instrument *soundBank;     // Instrument bank.
     u32 totalChannels:5;             // Total number of MidiChannels controlled by this MidiBus.
-    u32 priority:27;                 // Priority value.
+    u32 isPaused:1;                  // TRUE if the owning SoundPlayer is paused
+    u32 priority:26;                 // Priority value.
     struct MidiChannel *midiChannel; // Child MIDI Channels.
     s8  keyModScale[12];             // Offsets for each key in an octave for randomised key modulation.
 };
