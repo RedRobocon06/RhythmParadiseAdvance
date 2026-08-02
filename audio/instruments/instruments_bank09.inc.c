@@ -1,4 +1,3 @@
-
 extern struct SampleData sample_EN_148_data;
 struct InstrumentPCM instrument_pcm_0206 = {
     /* Type      */ INSTRUMENT_PCM_ALIGNED,

@@ -411,6 +411,7 @@ struct InstrumentPCM instrument_pcm_0108 = {
     /* ADSR Fade */ 0x000000,
     /* ADSR Rel  */ 0x13E350,
 };
+
 extern struct SampleData march_ord_1_data;
 struct InstrumentPCM instrument_pcm_0109 = {
     /* Type      */ INSTRUMENT_PCM_ALIGNED,
@@ -455,7 +456,6 @@ struct InstrumentPCM instrument_pcm_moA3 = {
     /* ADSR Fade */ 0x000000,
     /* ADSR Rel  */ 0x1E7FBA,
 };
-
 
 extern struct SampleData sample_077_data;
 struct InstrumentPCM instrument_pcm_0110 = {
